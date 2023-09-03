@@ -1,0 +1,226 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {margin:0;padding:0;overflow:auto; box-sizing: border-box;}
+html{ height:100% }
+body{ height:100%;margin:0 }
+
+
+.page{
+  background-color: #FFFFFF;
+  height:100%;width:100%;
+  margin:0;}
+
+.container{
+  display:flex;
+  margin-top:100px;margin-bottom:100px;
+  margin-left:auto;margin-right:auto;
+  box-shadow: 0px 0px 10px 0px #d7d7d7;
+  height:fit-content;width:750px;
+  background: white;
+  border-radius: 7%;
+  padding:0;
+  overflow:auto;
+  font-family: Hanken Grotesk;
+  box-sizing: border-box;
+}
+
+.left-container{
+  height:100%;width:50%;
+  display:inline-block;
+  border-radius: 7%;
+  background-color: hsl(252, 100%, 67%);
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  text-align: center;
+}
+
+.left-container .title{
+  padding:1.5rem;;width:auto;
+  padding-bottom: 2rem;
+  text-align: center;
+  color:#bbb3f8;
+  font-size: x-large;
+  box-sizing: content-box;
+}
+.circle{
+  overflow: auto;
+  margin-left:auto;margin-right:auto;
+  height: 220px;
+  width: 220px;
+  padding:5px;
+  background-color: hsla(256, 72%, 46%, 1);
+  background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));;
+  border-radius: 50%;
+  text-align: center;
+  display:table
+}
+.circle div{
+  display:table-cell;
+  height:100%;
+  vertical-align: middle
+}
+.circle span{
+  color:white;
+  font-size:5rem;
+  font-weight:bolder
+}
+.circle p{
+  color:#bbb3f8;
+  font-size:18px;
+  
+}
+.congratulation{
+  display:auto;
+  margin:10px;
+}
+.congratulation span{
+  color:white;
+  font-size:3.2vw;
+}
+.congratulation p{
+  margin-left:auto;margin-right:auto;
+  padding-left:17%;padding-right:17%;
+  margin-top:18px;
+  margin-bottom: 2rem;
+  color:rgb(220, 219, 219);
+}
+
+.right-container{
+  width:50%;
+  display:inline-block;
+  height:100%;
+  border-radius: 7%;
+  box-sizing: border-box;
+  justify-content: center; 
+  overflow:auto;
+}
+.outer-container{
+  display:block;
+  box-sizing: border-box;
+  padding:1.5rem;
+}
+
+.right-container .title {
+  font-size: x-large;
+  color:#3A3F53;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+.card-container {
+  box-sizing: content-box;
+  display: grid; /* or display: flex; */
+  max-height: none;
+  grid-template-columns: repeat(1,1fr); /* Adjust the number of columns as needed */
+  gap: 1rem; /* Adjust the gap between cards as needed */
+  padding-top:2.5rem;padding-bottom: 1.7rem;
+}
+
+.card {
+  padding: 15px; 
+  border-radius: 10px; 
+}
+.button-div{
+  width:100%;
+  padding-top:1rem;
+  text-align: center;
+}
+.button{
+  margin-top: auto;
+  width: 70%;
+  height:3.5rem;
+  border-radius:20px ;
+  background-color: hsl(224, 30%, 27%);
+  color:white;
+  border:0;
+  align-self: flex-end;
+  font-size: large;
+}
+.button:hover{
+  color:white;
+  background-color: #5C3DFA;
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  cursor:pointer;
+}
+.button:active{
+  color:white;
+  background-color: #5C3DFA;
+  background-image: linear-gradient(hsl(252, 98%, 63%),hsl(241, 81%, 51%));
+  cursor:pointer;
+}
+.title-col{
+  float:left;
+}
+.score-col{
+  float:right;
+}
+
+@media only screen and (max-width: 768px) {
+  .page{
+    background-color: #FFFFFF;
+    width:100%;
+    margin:0;
+    display:block;
+    overflow:overlay
+  }
+
+  .container{
+    margin:0;
+    width:100%;
+    height:fit-content;
+    background: white;
+    border-radius: 0%;
+    padding:0;
+    font-family: Hanken Grotesk;
+    display: block;
+  }
+  .right-container{
+    height:fit-content;
+    width:100%;
+    padding:1.5rem;
+    padding-bottom: 5rem;
+    border-radius: 7%;
+    box-sizing: border-box;
+    justify-content: center; 
+    overflow:overlay;
+  }
+  .left-container{
+    height:fit-content;
+    width:100%;
+    border-radius: 0% 0% 15% 15%;
+    background-color: #5C3DFA;
+    background-image: linear-gradient(#6743FF,#312DE4);
+    text-align: center;
+    overflow:overlay;
+  }
+  .left-container .title{
+    padding:1.5rem;width:auto;
+    text-align: center;
+    color:#bbb3f8;
+    font-size: large;
+  }
+  .circle{
+    overflow: auto;
+    margin-left:auto;margin-right:auto;
+    height: 125px;
+    width: 125px;
+    padding:5px;
+    background-color: #452DDD;
+    border-radius: 50%;
+    text-align: center;
+    display:table
+  }
+    
+  .circle span{
+    color:white;
+    font-size:4rem;
+    font-weight:bolder
+  }
+  .circle p{
+    color:#bbb3f8;
+    font-size:small;
+  }
+  .congratulation span{
+    color:white;
+    font-size:7vw;
+    font-weight: bolder;
+  }
+}
