@@ -18,7 +18,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 -Desktop Screenshot:
 
-![](./screenshot.jpg)
+![](./screenshot.jpeg)
 
 -Mobile Screenshot:
 
@@ -26,8 +26,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://nisrine-c.github.io/results-summary-component-solution-withpureCSS.github.io/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://nisrine-c.github.io/results-summary-component-solution-withpureCSS.github.io/)
 
 ## My process
 
