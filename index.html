@@ -1,90 +1,91 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Hanken+Grotesk&family=Playfair+Display&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Results summary component</title>
-  <link rel="stylesheet" href="./assets/style/style.css" >
-</head>
-<body >
-  <div class="page">
-    <!--main box div-->
-    <div class="container">
-      <!--left box div-->
-      <div class="left-container">
-        <div style="width:auto;height:auto">
-          <div class="title">Your Result</div>
-          <div class="circle">
-            <div >
-              <span >76</span>
-              <p>out of 100</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Hanken+Grotesk&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./assets/style/style.css" >
+  </head>
+  <body >
+    <div class="page">
+      <!--main box div-->
+      <main class="container">
+        <!--left box div-->
+        <div class="left-container">
+          <div style="width:auto;height:auto">
+            <div class="title">Your Result</div>
+            <div class="circle">
+              <div >
+                <span >76</span>
+                <p>out of 100</p>
+              </div>
             </div>
+            <div class="congratulation">
+              <span> Great</span>
+              <p>You scored higher than 65% of the people who have taken these tests. </p> 
+            </div> 
           </div>
-          <div class="congratulation">
-            <span> Great</span>
-            <p>You scored higher than 65% of the people who have taken these tests. </p> 
-          </div> 
         </div>
-      </div>
-      <!--right box div-->
-      <div class="right-container">
-        <div class="outer-container">
-            <div class="title">
-              <span>
-                Summary
-              </span>
-            </div>
-            <div class="card-container">
-              <div class="card" style="background-color: #FFF6F5;">
-                <span class="title-col" style="color:hsl(0, 100%, 67%);font-weight:bold"><img id="icon_reaction"  style="margin-right:5px;vertical-align: middle;"/>Reaction</span>
-                <span class="score-col">
-                  <span id="reaction" style="color:hsl(224, 30%, 27%);font-weight:bold">80</span>  
-                  <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
+        <!--right box div-->
+        <div class="right-container">
+          <div class="outer-container">
+              <div class="title">
+                <span>
+                  Summary
                 </span>
               </div>
-              <div class="card" style="background-color: #FFFBF2;">
-                <span class="title-col" style="color:hsl(39, 100%, 56%);font-weight:bold"><img id="icon_memory"  style="margin-right:5px;vertical-align: middle;"/>Memory</span>
-                <span class="score-col">
-                  <span id="memory" style="color:hsl(224, 30%, 27%);font-weight:bold">92</span>  
-                  <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
-                </span>
+              <div class="card-container">
+                <div class="card" style="background-color: #FFF6F5;">
+                  <span class="title-col" style="color:hsl(0, 100%, 67%);font-weight:bold"><img alt="" id="icon_reaction"  style="margin-right:5px;vertical-align: middle;"/>Reaction</span>
+                  <span class="score-col">
+                    <span id="reaction" style="color:hsl(224, 30%, 27%);font-weight:bold">80</span>  
+                    <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
+                  </span>
+                </div>
+                <div class="card" style="background-color: #FFFBF2;">
+                  <span class="title-col" style="color:hsl(39, 100%, 56%);font-weight:bold"><img alt="" id="icon_memory"  style="margin-right:5px;vertical-align: middle;"/>Memory</span>
+                  <span class="score-col">
+                    <span id="memory" style="color:hsl(224, 30%, 27%);font-weight:bold">92</span>  
+                    <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
+                  </span>
+                </div>
+                <div class="card" style="background-color: #F2FBFA;">
+                  <span class="title-col" style="color: hsl(166, 100%, 37%);font-weight:bold"><img alt="" id="icon_verbal" style="margin-right:5px;vertical-align: middle;"/>Reaction</span>
+                  <span class="score-col">
+                    <span id="verbal" style="color:hsl(224, 30%, 27%);font-weight:bold">61</span>  
+                    <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
+                  </span>
+                </div>
+                <div class="card" style="background-color: #F2FBFA;">
+                  <span class="title-col" style="color:hsl(234, 85%, 45%);font-weight:bold"><img alt="" id="icon_visual" style="margin-right:5px;vertical-align: middle;"/>Visual</span>
+                  <span class="score-col">
+                    <span id="visual" style="color:hsl(224, 30%, 27%);font-weight:bold">72</span>  
+                    <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
+                  </span>
+                </div>
               </div>
-              <div class="card" style="background-color: #F2FBFA;">
-                <span class="title-col" style="color: hsl(166, 100%, 37%);font-weight:bold"><img id="icon_verbal" style="margin-right:5px;vertical-align: middle;"/>Reaction</span>
-                <span class="score-col">
-                  <span id="verbal" style="color:hsl(224, 30%, 27%);font-weight:bold">61</span>  
-                  <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
-                </span>
+              <div class="button-div">
+                <button class="button">
+                  Continue
+                </button>
               </div>
-              <div class="card" style="background-color: #F2FBFA;">
-                <span class="title-col" style="color:hsl(234, 85%, 45%);font-weight:bold"><img id="icon_visual" style="margin-right:5px;vertical-align: middle;"/>Visual</span>
-                <span class="score-col">
-                  <span id="visual" style="color:hsl(224, 30%, 27%);font-weight:bold">72</span>  
-                  <span style="color:#BFB6B7;font-weight:bold">/ 100</span>
-                </span>
-              </div>
-            </div>
-            <div class="button-div">
-              <button class="button">
-                Continue
-              </button>
-            </div>
 
+          </div>
         </div>
       </div>
-    </div>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/Nisrine-C">Nisrine-C</a>.
-      </div>
-  </div>
-</body>
+      <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/Nisrine-C">Nisrine-C</a>.
+        </div>
+      </main>
+  </body>
 </html>
+
 <script type="module">
   import data from "./data.json" assert { type: 'json' };
   let memory = document.getElementById("memory");
