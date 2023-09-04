@@ -26,7 +26,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: ([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-results-page-with-dynamic-data-loading-7_-zRZeSWW))
 - Live Site URL: (https://nisrine-c.github.io/results-summary-component-solution-withpureCSS.github.io/)
 
 ## My process
