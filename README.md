@@ -41,4 +41,4 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Author
 
 - Website - [Nisrine C](https://nisrine-c.github.io/results-summary-component-solution-withpureCSS.github.io/)
-- Frontend Mentor - [@Nisrine-C](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Nisrine-C](https://www.frontendmentor.io/profile/Nisrine-C)
